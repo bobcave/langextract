@@ -25,16 +25,16 @@ Convex replaces the traditional backend stack (PostgreSQL, Redis, WebSockets, S3
 ### Phase 1: Foundation & Infrastructure (Week 1)
 
 #### 1.1 Project Setup
-- [ ] Initialize NextJS 15+ application with TypeScript
-- [ ] Set up Convex backend with `npx convex dev`
+- [x] Initialize NextJS 15+ application with TypeScript
+- [x] Set up Convex backend with `npx convex dev`
 - [ ] Initialize FastAPI service for LangExtract operations
 - [ ] Configure Docker for FastAPI service only
 - [ ] Create docker-compose.yml for local development
-- [ ] Set up environment variables (.env.local for Convex keys)
+- [x] Set up environment variables (.env.local for Convex keys)
 
 #### 1.2 Development Environment
-- [ ] Configure Convex dev server with hot-reload
-- [ ] Set up NextJS with Convex client provider
+- [x] Configure Convex dev server with hot-reload
+- [x] Set up NextJS with Convex client provider
 - [ ] Configure FastAPI hot-reload for Python services
 - [ ] Create Makefile for common operations
 - [ ] Set up VS Code debugging for Convex functions
