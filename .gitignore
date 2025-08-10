@@ -25,7 +25,7 @@ dist/
 eggs/
 
 # Virtual Environments
-.env
+
 .venv
 env/
 venv/
@@ -99,9 +99,9 @@ logs/
 *.pem
 *.crt
 *.csr
-.env.local
+
 .env.production
-.env.*.local
+
 secrets/
 credentials/
 
