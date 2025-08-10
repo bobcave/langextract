@@ -1,0 +1,15 @@
+services:
+  api:
+    build:
+      context: ./fastapi_service
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
